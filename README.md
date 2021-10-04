@@ -1,5 +1,5 @@
-# vim-code-dark
-`vim-code-dark` is a dark **color scheme for [Vim](http://www.vim.org/)** heavily inspired by the look of the Dark+ scheme of [Visual Studio Code](https://code.visualstudio.com/). While many of the colors are same, there are additional colors for specific usage or reserved for future use. The scheme also defines specific GUI colors (e.g. popup menu) and fully supports [`vim-airline`](https://github.com/vim-airline/vim-airline).
+# vim-code16
+`vim-code16` is a dark **color scheme for [Vim](http://www.vim.org/)** heavily inspired by the look of the Dark+ scheme of [Visual Studio Code](https://code.visualstudio.com/). While many of the colors are same, there are additional colors for specific usage or reserved for future use. The scheme also defines specific GUI colors (e.g. popup menu) and fully supports [`vim-airline`](https://github.com/vim-airline/vim-airline).
 
 **:exclamation: To install and enable this colorscheme, [read installation instructions](#installation).**
 
@@ -32,11 +32,11 @@
 Simply as any other Vim plugins: download manually or follow the standard procedure of your plugin manager:
 *  [Vundle](https://github.com/gmarik/vundle)
  ```
- Plugin 'tomasiser/vim-code-dark'
+ Plugin 'kocotian/vim-code16'
  ```
 *  [vim-plug](https://github.com/junegunn/vim-plug)
 ```
-Plug 'tomasiser/vim-code-dark'
+Plug 'kocotian/vim-code16'
 ```
 *  manual
 
@@ -85,7 +85,7 @@ Clone [`base16-shell`](https://github.com/chriskempson/base16-shell/) into `~/.c
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 ```
 
-Then copy a script from this (`vim-code-dark`) repository (`base16/templates/shell/scripts/base16-codedark.sh`) into `~/.config/base16-shell/scripts`.
+Then copy a script from this (`vim-code16`) repository (`base16/templates/shell/scripts/base16-codedark.sh`) into `~/.config/base16-shell/scripts`.
 
 Following the instructions from [`base16-shell`](https://github.com/chriskempson/base16-shell/), you should now modify your `~/.bashrc` or `~/.zshrc` (depending on your shell) and insert the following lines:
 
